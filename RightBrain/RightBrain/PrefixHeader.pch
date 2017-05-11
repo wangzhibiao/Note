@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  RightBrain
+//
+//  Created by 王小帅 on 2017/3/2.
+//  Copyright © 2017年 王小帅. All rights reserved.
+//
+#import <YYModel/YYModel.h>
+#import "UIView+FrameUpdate.h"
+#import "NoteModel.h"
+#import <Masonry/Masonry.h>
+#import "NSDate+FormatStr.h"
+#import "RBDataTool.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "Common.h"
+#import "LocalPWDTool.h"
+#import <EZDrawer/EZDrawer-Swift.h>
+#import <MJRefresh/MJRefresh.h>
+#import <pop/pop.h>
+
+#define golbal_color(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+#define  SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+
+#define  SCREEN_HEIGHT  [UIScreen mainScreen].bounds.size.height
+
+#define golbal_bg_color golbal_color(254, 250, 220)
+
+#define golbal_text_color golbal_color(161, 108, 49)
+
+#define documentUrl  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]

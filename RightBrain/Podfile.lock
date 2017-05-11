@@ -1,0 +1,32 @@
+PODS:
+  - EZDrawer (0.1.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - SVProgressHUD (2.1.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - EZDrawer
+  - FMDB
+  - Masonry
+  - MJRefresh
+  - pop (~> 1.0)
+  - SVProgressHUD
+  - YYModel
+
+SPEC CHECKSUMS:
+  EZDrawer: 0e6eda31c7eb0a62d058205fed5ead44161d36f7
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 3377ae86994cd2b67b7b59306e74a45dd35d54f6
+
+COCOAPODS: 1.2.0

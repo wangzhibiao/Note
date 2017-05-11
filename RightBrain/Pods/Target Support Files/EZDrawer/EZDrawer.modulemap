@@ -1,0 +1,6 @@
+framework module EZDrawer {
+  umbrella header "EZDrawer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Gde-HM-fEP" customClass="TypeView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRd-4i-dEe">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="HqG-xb-J3Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Qb-hr-zul">
+                                <rect key="frame" x="10" y="603" width="355" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNJ-uQ-Ebw">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="54"/>
+                                        <state key="normal" title="取消" backgroundImage="2btn_background"/>
+                                        <state key="highlighted">
+                                            <color key="titleColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelButtonClick:" destination="Gde-HM-fEP" eventType="touchUpInside" id="byN-qG-MJw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="0fC-fd-vKP"/>
+                                    <constraint firstItem="SNJ-uQ-Ebw" firstAttribute="leading" secondItem="0Qb-hr-zul" secondAttribute="leading" id="CZx-80-h6U"/>
+                                    <constraint firstItem="SNJ-uQ-Ebw" firstAttribute="top" secondItem="0Qb-hr-zul" secondAttribute="top" id="F9e-DU-zYO"/>
+                                    <constraint firstAttribute="trailing" secondItem="SNJ-uQ-Ebw" secondAttribute="trailing" id="IDG-Dm-uHD"/>
+                                    <constraint firstAttribute="bottom" secondItem="SNJ-uQ-Ebw" secondAttribute="bottom" constant="10" id="lgF-pm-oJz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0Qb-hr-zul" secondAttribute="trailing" constant="10" id="5k3-67-LqY"/>
+                            <constraint firstItem="0Qb-hr-zul" firstAttribute="leading" secondItem="HqG-xb-J3Y" secondAttribute="leading" constant="10" id="CMC-p7-ogx"/>
+                            <constraint firstAttribute="bottom" secondItem="0Qb-hr-zul" secondAttribute="bottom" id="MNC-VO-tAA"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="extraLight"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VRd-4i-dEe" firstAttribute="leading" secondItem="Gde-HM-fEP" secondAttribute="leading" id="WGa-kT-80z"/>
+                <constraint firstAttribute="trailing" secondItem="VRd-4i-dEe" secondAttribute="trailing" id="aUi-rd-a9g"/>
+                <constraint firstAttribute="bottom" secondItem="VRd-4i-dEe" secondAttribute="bottom" id="eW8-YV-1T3"/>
+                <constraint firstItem="VRd-4i-dEe" firstAttribute="top" secondItem="Gde-HM-fEP" secondAttribute="top" id="hbQ-gn-q7J"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-183.5" y="43.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2btn_background" width="10" height="10"/>
+    </resources>
+</document>
